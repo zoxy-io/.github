@@ -1,5 +1,3 @@
-[![Discord](https://img.shields.io/discord/1530882611159760956)](https://discord.gg/BGbb7VtYA)
-
 A reverse proxy, a load generator, and the Zig protocol libraries they are built on.
 
 ### [zoxy](https://github.com/zoxy-io/zoxy)
@@ -17,7 +15,8 @@ newest work instead of falling over.
 
 [zoxy.io](https://zoxy.io) · [Documentation](https://zoxy.io/docs/) ·
 [Configuration reference](https://zoxy.io/config/) ·
-[Benchmark against haproxy, nginx, pingora and envoy](https://zoxy.io/bench/)
+[Benchmark against haproxy, nginx, pingora and envoy](https://zoxy.io/bench/) ·
+[![Discord](https://img.shields.io/discord/1530882611159760956)](https://discord.gg/BGbb7VtYA)
 
 ### [zrk](https://github.com/zoxy-io/zrk)
 
