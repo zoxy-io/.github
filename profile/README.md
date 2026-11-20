@@ -4,10 +4,12 @@ A reverse proxy, a load generator, and the Zig protocol libraries they are built
 
 ### [zoxy](https://github.com/zoxy-io/zoxy)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zoxy-io/.github/main/profile/engine-dark.png">
-  <img width="544" alt="An isometric drawing of zoxy's engine: clients pass an accept gate into one core inside one ring, over fixed memory pools, and out to four origins." src="https://raw.githubusercontent.com/zoxy-io/.github/main/profile/engine-light.png">
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zoxy-io/.github/main/profile/engine-dark.svg">
+    <img width="660" alt="An animated isometric drawing of zoxy's engine: requests pass an accept gate, hold a pool slot while they ride the ring around one core, and go out to four origins; as load rises the pool fills and the gate sheds the overflow with a 503." src="https://raw.githubusercontent.com/zoxy-io/.github/main/profile/engine-light.svg">
+  </picture>
+</p>
 
 A zero-allocation reverse proxy and load balancer. All memory is reserved at
 startup, the serving path never allocates, and under overload it sheds the
